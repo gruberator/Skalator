@@ -1,0 +1,22 @@
+/*
+    Copyright (c) 2015, Kamil Jastrzab
+    All rights reserved.
+
+    Skalator is a free learning tool for musical scales on any fretboard.
+    App draws a fretboard with notes which are written in top edit text. Those notes are sounds on thickest string.
+    Application allows easy pitch shift of given scale.
+    User can pick one of preset tunings or define new, for any number of strings.
+
+    Scale edit text input format:
+    [Name] [intervals]
+     Name   can be with spaces but without numbers, when number shows up it is parsed as interval and all letters
+            after that number will be ignored as name
+     Intervals   list of sounds on thickest string (intervals from 0)  eg  0 2 3 5 7 8 10  (Aeolian)
+
+    Tuning edit text input format  (intervals are inputed differently, read down)
+    [Name] [intervals]
+     Name   can be with spaces but without numbers, when number shows up it is parsed as interval and all letters
+            after that number will be ignored as name
+     Intervals  list of intervals between EACH string, so for example standard guitar tuning looks like this:
+                0 5 5 5 4 5   explaination: first string, second string is 5 frets higher so 5, etc with rest of strings.
+*/

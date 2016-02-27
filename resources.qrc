@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/assets">
+        <file>assets/dimebag.jpg</file>
+    </qresource>
+</RCC>

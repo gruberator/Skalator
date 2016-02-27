@@ -1,0 +1,4 @@
+*.pro.user*
+build-*
+*.exe
+win_installer/*
